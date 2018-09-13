@@ -2,6 +2,9 @@ package com.springframework.sfpetclinic.model;
 
 import java.time.LocalDate;
 
+/**
+ * Created by Jaison on 09/13/2018
+ */
 public class Pet {
 
     private PetType petType;
