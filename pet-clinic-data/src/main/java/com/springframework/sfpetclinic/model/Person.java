@@ -6,7 +6,7 @@ package com.springframework.sfpetclinic.model;
 public class Person extends BaseEntity {
 
     private String firstName;
-    private String lasName;
+    private String lastName;
 
     public String getFirstName() {
         return firstName;
@@ -16,11 +16,11 @@ public class Person extends BaseEntity {
         this.firstName = firstName;
     }
 
-    public String getLasName() {
-        return lasName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLasName(String lasName) {
-        this.lasName = lasName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
